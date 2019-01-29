@@ -48,6 +48,6 @@ end
 
 class NilLocation < Location
   def initialize
-    @pretty_name = 'Unkown Location'
+    @pretty_name = 'Unknown Location'
   end
 end
