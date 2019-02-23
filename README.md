@@ -1,6 +1,6 @@
 # whereis
 
-This is the terrible web app that runs http://whereis.dantoml.com
+This is the web app that runs https://whereis.issyl0.co.uk
 
 If you wish to run it yourself, you need to set the following env vars:  
 
