@@ -1,11 +1,13 @@
 require 'sinatra/base'
 require 'foursquare2'
 require 'json'
+require 'rack/ssl'
 
 require_relative 'location_controller'
 require_relative 'person'
 
 class Whereis < Sinatra::Base
+  use Rack::SSL
   attr_accessor :location_controller
   attr_accessor :person
   attr_accessor :google_maps_token
