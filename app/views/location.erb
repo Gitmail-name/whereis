@@ -52,11 +52,9 @@
 <body>
   <div class='wrapper'>
     <div>
-      <%= person.name %> is probably in: <span class='location'><%= location.pretty_name %></span>,
-        <br /> and
-        <%= person.pronoun %> current UTC Offset is: <span class='tz'><%= location.time_zone_offset_hours %>:<%= location.time_zone_offset_minutes.to_s.rjust(2, '0') %></span>
-        <br />
-        where the local time is <span id="local-time" />
+      <%= person.name %> is probably in <span class='location'><%= location.pretty_name %></span>,
+      <br />
+      where the local time is <span id="local-time" />.
     </div>
   </div>
   <iframe frameborder="0" style="border:0;width:100%;height:100%" src="https://www.google.com/maps/embed/v1/place?key=<%= tokens[:GOOGLE_MAPS]  %>
