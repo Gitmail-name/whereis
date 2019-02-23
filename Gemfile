@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'sinatra'
 gem 'rake', '12.3.2'
 gem 'foursquare2'
+gem 'rack-ssl'
 
 group :development do
   gem 'rubocop'
