@@ -1,6 +1,6 @@
 # whereis
 
-This is the web app that runs https://whereis.issyl0.co.uk
+This is the web app that runs https://whereis.issyl0.dev
 
 If you wish to run it yourself, you need to set the following env vars:  
 
