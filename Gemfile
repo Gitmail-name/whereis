@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.6.1'
 
 gem 'sinatra'
-gem 'rake', '12.3.2'
+gem 'rake', '12.3.3'
 gem 'foursquare2'
 gem 'rack-ssl'
 
